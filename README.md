@@ -1,5 +1,6 @@
 # ngstrap
 angular + bootstrap with angularUI
+
 1、	目录结构说明
 a)	两大目录pages和resources
 Pages目录下主要包括index.jsp文件和一个template目录，index.jsp问应用主入口，template目录存放HTML片段文件，template目录可以按需再添加子目录，例如system目录，order目录等等。
