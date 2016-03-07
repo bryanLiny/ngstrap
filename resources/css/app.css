@@ -1,0 +1,200 @@
+body {
+	/* background-color: #eee; */
+	
+}
+
+.app {
+	position: relative;
+	width: 100%;
+	height: auto;
+	min-width: 100px;
+}
+/*************************navbar*********************************/
+.navbar {
+	margin-bottom: 0px;
+	border: 1px solid #dedde3;
+}
+
+.navbar-header {
+	background-color: #3a3f51;
+	width: 200px;
+}
+
+.navbar-brand {
+	color: white;
+	font-weight: 600;
+	text-align: center;
+}
+
+.navbar-brand:HOVER {
+	color: white;
+}
+
+.navbar-container {
+	background-color: #fff;
+	margin-left: 200px;
+	vertical-align: middle;
+}
+
+.bg-white {
+	background-color: #fff;
+}
+
+.dropdown-width-250 {
+	width: 250px;
+}
+
+.dropdown-margin {
+	margin-right: 30px;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+	background-color: #f6f8f8;
+	border-color: transparent;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+	background-color: #f6f8f8;
+}
+/************************sidebar***************************/
+.app-sidebar {
+	float: left;
+	width: 200px;
+	color: #a6a8b1;
+	background-color: #ddd;
+	margin-top: -3px;
+	margin-left: 1px;
+}
+
+.menu-icon {
+	display: inline-block;
+	min-width: 30px;
+	margin-right: 2px;
+	vertical-align: sub;
+	text-align: center;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.nav-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.submenu {
+	background-color: #ddd;
+	color: #fff;
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	position: relative;
+}
+
+.nav .auto {
+	position: relative;
+	display: block;
+	padding: 10px 20px;
+	font-weight: normal;
+	text-transform: none;
+	-webkit-transition: background-color 0.2s ease-in-out 0s;
+	transition: background-color 0.2s ease-in-out 0s;
+}
+
+.text-active, .active>.text, .active>.auto .text {
+	display: none !important;
+}
+
+.font-bold {
+	font-weight: 700;
+}
+
+.nav-sub {
+	margin-left: -20px;
+	text-align: center;
+}
+/**********************app-content**************************/
+.app-content {
+	margin-left: 210px;
+	margin-right: 20px;
+}
+
+.app-include {
+	padding: 20px 0;
+	background-color: white;
+}
+/********************分页****************************/
+.page-list .pagination {
+	float: left;
+}
+
+.page-list .pagination span {
+	cursor: pointer;
+}
+
+.page-list .pagination .separate span {
+	cursor: default;
+	border-top: none;
+	border-bottom: none;
+}
+
+.page-list .pagination .separate span:hover {
+	background: none;
+}
+
+.page-list .page-total {
+	float: left;
+	margin: 25px 20px;
+}
+
+.page-list .page-total input, .page-list .page-total select {
+	height: 26px;
+	border: 1px solid #ddd;
+}
+
+.page-list .page-total input {
+	width: 40px;
+	padding-left: 3px;
+}
+
+.page-list .page-total select {
+	width: 50px;
+}
+.page-list .no-items{
+	text-align: center;
+	
+}
+/*****************alert新增样式******************/
+.alert.top-center{
+	position: fixed;
+  	z-index: 1050;
+  	margin: 20px;
+  	top: 50px;
+  	right: 40%;
+}
+.alert.top-center .close {
+  padding-left: 10px;
+}
+/********************modal CSS**************************/
+.modal-backdrop.am-fade {
+  opacity: .5;
+  transition: opacity .15s linear;
+  &.ng-enter {
+    opacity: 0;
+    &.ng-enter-active {
+      opacity: .5;
+    }
+  }
+  &.ng-leave {
+    opacity: .5;
+    &.ng-leave-active {
+      opacity: 0;
+    }
+  }
+}
+/*************error*************/
+.error{
+	color: red;
+}
